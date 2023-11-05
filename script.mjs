@@ -16,4 +16,5 @@ document.getElementById("checkButton").addEventListener("click", function() {
     }
 
     resultElement.textContent = "Grade: " + grade;
+    console.log(percentage , grade)
 });
